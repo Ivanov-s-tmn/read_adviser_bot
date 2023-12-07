@@ -13,7 +13,6 @@ const tgBotHost = "api.telegram.org"
 const storagePath = "file_storage"
 const batchSize = 100
 
-// 6731230463:AAHB2QiO-q70FaNAP78UExVxnEncG-TNses
 func main() {
 	eventsProcessor := telegram.New(
 		tgClient.New(tgBotHost, mustToken()),
